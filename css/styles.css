@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(42, 5, 143);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding: 1rem;
+}
+form{
+    background-color: rgb(20, 2, 70);
+    padding: 1rem;
+
+}
+#title, #description{
+    text-align: center;
+}
+#description{
+    font-style: italic;
+}
+label{
+    margin-top: 2rem;
+    font-style: oblique;
+}
+input{
+    min-width: 80%;
+    line-height: 2rem;
+    border-radius: 4px;
+    padding: 2px;
+}
+input[type=radio]{
+    min-width: 2rem;
+}
+input[type=checkbox]{
+    min-width: 2rem;
+}
+textarea{
+    min-width: 80%;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+input[type=submit]{
+    min-width: 80%;
+    background-color: aqua;
+}
